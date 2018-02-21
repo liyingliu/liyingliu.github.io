@@ -1,0 +1,75 @@
+#sidebar{
+	position: absolute;
+	/*width:250px;*/
+	width: 17.5%;
+	background: #2b2b2b;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#profile {
+	text-align: center;
+	padding: 30px 10px;
+	position: relative;
+}
+
+#profile .portrate {
+	float: left;
+	background-image: url("../img/portrait.jpg");
+	width: 200px;
+	height: 200px;
+	/*border-radius: 50%;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+#blocks{
+margin-left: 200px;
+margin-bottom: 100px;
+}
+h1{
+	color:black;
+}
+
+a{
+	font-weight: bold;
+	color: #20B2AA;
+	text-decoration: none;
+}
+ul {
+	text-align: left;
+	list-style:none;
+}
+
+span{
+	color: #808080;
+	font-size: 24px;
+}
+footer{
+	text-align: center;
+	color: #77797c;
+	margin-top: 40px;
+}
+
+#main{
+	 max-width: 720px;
+  	padding: 20px;	
+  	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-family: "Arvo", Georgia, serif;
+	font-size: 18px;
+	line-height:22px;
+	color: #808080;
+}
+
+#gallery{
+	width: 200px;
+	height: 200px;
+}
